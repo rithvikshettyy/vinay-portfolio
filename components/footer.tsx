@@ -19,13 +19,13 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="font-subheading text-[18px] font-semibold text-[#0C0407]">Navigation</h4>
             <nav className="space-y-3">
-              <Link href="#work" className="block text-[#666666] font-sans text-[16px] hover:text-[#FF2200] transition-colors leading-[25.6px]">
+              <Link href="#work" className="block text-[#666666] font-sans text-[16px] hover:text-[#6366F1] transition-colors leading-[25.6px]">
                 Work
               </Link>
-              <Link href="#services" className="block text-[#666666] font-sans text-[16px] hover:text-[#FF2200] transition-colors leading-[25.6px]">
+              <Link href="#services" className="block text-[#666666] font-sans text-[16px] hover:text-[#6366F1] transition-colors leading-[25.6px]">
                 Services
               </Link>
-              <Link href="/" className="block text-[#666666] font-sans text-[16px] hover:text-[#FF2200] transition-colors leading-[25.6px]">
+              <Link href="/" className="block text-[#666666] font-sans text-[16px] hover:text-[#6366F1] transition-colors leading-[25.6px]">
                 Contact
               </Link>
             </nav>
@@ -38,7 +38,7 @@ export default function Footer() {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#666666] hover:text-[#FF2200] transition-colors flex items-center justify-center w-[44px] h-[44px] border border-[#0C0407]/15 rounded-none bg-white hover:border-[#FF2200]/30"
+                className="text-[#666666] hover:text-[#6366F1] transition-colors flex items-center justify-center w-[44px] h-[44px] border border-[#0C0407]/15 rounded-none bg-white hover:border-[#6366F1]/30"
               >
                 <Twitter className="w-[18px] h-[18px]" strokeWidth={2} />
               </a>
@@ -46,7 +46,7 @@ export default function Footer() {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#666666] hover:text-[#FF2200] transition-colors flex items-center justify-center w-[44px] h-[44px] border border-[#0C0407]/15 rounded-none bg-white hover:border-[#FF2200]/30"
+                className="text-[#666666] hover:text-[#6366F1] transition-colors flex items-center justify-center w-[44px] h-[44px] border border-[#0C0407]/15 rounded-none bg-white hover:border-[#6366F1]/30"
               >
                 <Instagram className="w-[18px] h-[18px]" strokeWidth={2} />
               </a>
@@ -54,7 +54,7 @@ export default function Footer() {
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#666666] hover:text-[#FF2200] transition-colors flex items-center justify-center w-[44px] h-[44px] border border-[#0C0407]/15 rounded-none bg-white hover:border-[#FF2200]/30"
+                className="text-[#666666] hover:text-[#6366F1] transition-colors flex items-center justify-center w-[44px] h-[44px] border border-[#0C0407]/15 rounded-none bg-white hover:border-[#6366F1]/30"
               >
                 <Github className="w-[18px] h-[18px]" strokeWidth={2} />
               </a>
@@ -62,7 +62,7 @@ export default function Footer() {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#666666] hover:text-[#FF2200] transition-colors flex items-center justify-center w-[44px] h-[44px] border border-[#0C0407]/15 rounded-none bg-white hover:border-[#FF2200]/30"
+                className="text-[#666666] hover:text-[#6366F1] transition-colors flex items-center justify-center w-[44px] h-[44px] border border-[#0C0407]/15 rounded-none bg-white hover:border-[#6366F1]/30"
               >
                 <Linkedin className="w-[18px] h-[18px]" strokeWidth={2} />
               </a>

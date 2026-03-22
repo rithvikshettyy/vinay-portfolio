@@ -19,8 +19,8 @@ export default function Services() {
       <div className="max-w-[1440px] mx-auto px-8 relative isolate">
         
         {/* Intense Central Background Glows */}
-        <div className="absolute top-[30%] left-1/2 transform -translate-x-1/2 w-[70%] h-[70%] bg-[#FF3B00] blur-[150px] rounded-full z-0 opacity-90 pointer-events-none"></div>
-        <div className="absolute top-[40%] left-1/2 transform -translate-x-1/2 w-[40%] h-[40%] bg-[#FFB800] blur-[120px] rounded-full z-0 opacity-80 pointer-events-none"></div>
+        <div className="absolute top-[30%] left-1/2 transform -translate-x-1/2 w-[70%] h-[70%] bg-[#818CF8] blur-[150px] rounded-full z-0 opacity-30 pointer-events-none"></div>
+        <div className="absolute top-[40%] left-1/2 transform -translate-x-1/2 w-[40%] h-[40%] bg-[#C084FC] blur-[120px] rounded-full z-0 opacity-20 pointer-events-none"></div>
 
         <div className="flex flex-col relative z-10 w-full mb-16 space-y-24">
           <div className="w-full text-center flex justify-center mt-[-40px]">

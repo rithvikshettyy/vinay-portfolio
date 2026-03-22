@@ -41,7 +41,7 @@ export default function Header() {
               key={link.name}
               href={link.href}
               aria-current={pathname === link.href ? 'page' : undefined}
-              className="nav-link font-sans text-[14px] transition-colors text-[#666666] hover:text-[#0C0407] aria-[current=page]:text-[#FF2200]"
+              className="nav-link font-sans text-[14px] transition-colors text-[#666666] hover:text-[#0C0407] aria-[current=page]:text-[#6366F1]"
             >
               {link.name}
             </Link>
@@ -89,11 +89,11 @@ export default function Header() {
       {menuOpen && (
         <div className="md:hidden border-t border-gray-100 bg-white">
           <div className="px-8 py-4 space-y-4">
-            <Link href="/" onClick={() => setMenuOpen(false)} className={`block font-sans text-[14px] ${pathname === '/' ? 'text-[#FF2200]' : 'text-[#0C0407]'}`}>Home</Link>
-            <Link href="/about" onClick={() => setMenuOpen(false)} className={`block font-sans text-[14px] ${pathname === '/about' ? 'text-[#FF2200]' : 'text-[#0C0407]'}`}>About me</Link>
-            <Link href="/services" onClick={() => setMenuOpen(false)} className={`block font-sans text-[14px] ${pathname === '/services' ? 'text-[#FF2200]' : 'text-[#0C0407]'}`}>Services</Link>
-            <Link href="/projects" onClick={() => setMenuOpen(false)} className={`block font-sans text-[14px] ${pathname === '/projects' ? 'text-[#FF2200]' : 'text-[#0C0407]'}`}>Projects</Link>
-            <Link href="/blog" onClick={() => setMenuOpen(false)} className={`block font-sans text-[14px] ${pathname === '/blog' ? 'text-[#FF2200]' : 'text-[#0C0407]'}`}>Blog</Link>
+            <Link href="/" onClick={() => setMenuOpen(false)} className={`block font-sans text-[14px] ${pathname === '/' ? 'text-[#6366F1]' : 'text-[#0C0407]'}`}>Home</Link>
+            <Link href="/about" onClick={() => setMenuOpen(false)} className={`block font-sans text-[14px] ${pathname === '/about' ? 'text-[#6366F1]' : 'text-[#0C0407]'}`}>About me</Link>
+            <Link href="/services" onClick={() => setMenuOpen(false)} className={`block font-sans text-[14px] ${pathname === '/services' ? 'text-[#6366F1]' : 'text-[#0C0407]'}`}>Services</Link>
+            <Link href="/projects" onClick={() => setMenuOpen(false)} className={`block font-sans text-[14px] ${pathname === '/projects' ? 'text-[#6366F1]' : 'text-[#0C0407]'}`}>Projects</Link>
+            <Link href="/blog" onClick={() => setMenuOpen(false)} className={`block font-sans text-[14px] ${pathname === '/blog' ? 'text-[#6366F1]' : 'text-[#0C0407]'}`}>Blog</Link>
             <Link href="/contact" onClick={() => setMenuOpen(false)} className="w-full inline-block text-center bg-[#0C0407] text-[#FFFFFF] px-[16px] py-[12px] text-[14px] font-semibold border-[0.8px] border-[#0C0407] rounded-none">Contact</Link>
           </div>
         </div>

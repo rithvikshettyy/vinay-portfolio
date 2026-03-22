@@ -35,9 +35,9 @@ export default function Work() {
             {/* Column 1: Date text and Button */}
             <div className="flex flex-col justify-center relative pb-16 md:pb-0 h-full isolate">
               {/* Saturated backdrop blobs guaranteed to render */}
-              <div className="absolute top-[0%] left-[-30%] w-[120%] h-[100%] bg-[#FF2B00] blur-[100px] rounded-full z-0 opacity-100 pointer-events-none"></div>
-              <div className="absolute top-[10%] left-[10%] w-[120%] h-[100%] bg-[#FF8A00] blur-[100px] rounded-full z-0 opacity-80 pointer-events-none"></div>
-              <div className="absolute top-[30%] left-[40%] w-[100%] h-[100%] bg-[#FFF0A0] blur-[100px] rounded-full z-0 opacity-60 pointer-events-none"></div>
+              <div className="absolute top-[0%] left-[-30%] w-[120%] h-[100%] bg-[#818CF8] blur-[100px] rounded-full z-0 opacity-40 pointer-events-none"></div>
+              <div className="absolute top-[10%] left-[10%] w-[120%] h-[100%] bg-[#C084FC] blur-[100px] rounded-full z-0 opacity-30 pointer-events-none"></div>
+              <div className="absolute top-[30%] left-[40%] w-[100%] h-[100%] bg-[#F472B6] blur-[100px] rounded-full z-0 opacity-20 pointer-events-none"></div>
 
               <h3 className="text-[100px] lg:text-[120px] xl:text-[140px] font-heading font-normal leading-[0.85] tracking-[0.02em] text-[#0C0407] mb-8 relative z-10">
                 2022-2026
@@ -57,7 +57,7 @@ export default function Work() {
                 title: 'PixelForge',
                 tags: ['Development', 'Marketing', 'Branding'],
                 bg: 'bg-[#E5E5E5]',
-                gradient: 'from-[#FF6A3D] via-[#FF3636] to-[#E51200]'
+                 gradient: 'from-[#818CF8] via-[#C084FC] to-[#F472B6]'
               },
               {
                 title: 'SyncCraft',

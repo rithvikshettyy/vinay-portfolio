@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative w-full bg-white overflow-hidden min-h-screen pt-28 pb-12 flex flex-col justify-between">
       {/* Intense gradient splash on the right side as seen in screenshot */}
       <div className="absolute inset-0 pointer-events-none flex justify-end items-center right-[-30%] sm:right-[-20%] md:right-[-10%] z-0">
-        <div className="w-[90vw] h-[90vw] max-w-[1200px] max-h-[1200px] bg-gradient-to-tr from-[#FFB800] via-[#FF3500] to-[#E51200] opacity-[0.85] blur-[100px] md:blur-[160px] rounded-full transform translate-x-1/4" />
+        <div className="w-[90vw] h-[90vw] max-w-[1200px] max-h-[1200px] bg-gradient-to-tr from-[#818CF8] via-[#C084FC] to-[#F472B6] opacity-[0.45] blur-[100px] md:blur-[160px] rounded-full transform translate-x-1/4" />
       </div>
 
       <div className="relative w-full max-w-[1440px] mx-auto px-8 flex-1 flex flex-col justify-between z-10 pt-16 lg:pt-24">
